@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="18dp"
+    android:orientation="vertical"
+    tools:context="com.ramirez.tarealabo7.Activitys.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de notas."
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/notes"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AGREGAR PERSONAS"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="notas"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/Vnotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ver notas"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
